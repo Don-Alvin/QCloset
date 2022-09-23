@@ -7,7 +7,7 @@ export default {
 			name: "image",
 			title: "Image",
 			type: "array",
-			of: [{ type: "images" }],
+			of: [{ type: "image" }],
 			options: {
 				hotspot: true,
 			},
@@ -18,7 +18,7 @@ export default {
 			type: "string",
 		},
 		{
-			slug: "slug",
+			name: "slug",
 			title: "Slug",
 			type: "slug",
 			options: {
